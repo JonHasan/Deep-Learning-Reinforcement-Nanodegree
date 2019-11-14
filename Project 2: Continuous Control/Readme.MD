@@ -27,4 +27,29 @@ Environment is considered solved, when the average score over all agents over 10
 
 ### Running the files
 
-To run the files, simply download the files and run the jupyter-notebook command in the file directory that houses the files. 
+### Step 1: Activate the environment
+
+Follow the instructions in the DRLND Github repository to set up the python environment. The instructions are found in the README.md at the root of the repository. Install pytorch, ML-Agents toolkit and a couple more important packages. 
+
+It is recommended to run ML-Agents toolkit in Windows 10 for windows users. Other versions of windows have not been tested. 
+
+### Step 2: Download the Unity Environment
+
+
+1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+
+    - **_Version 1: One (1) Agent_**
+        - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+        - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
+        - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
+        - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
+
+    - **_Version 2: Twenty (20) Agents_**
+        - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+        - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
+        - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
+        - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
+        
+Place the file in the DRLND github repository in the 'p2-continuous-control/' folder and unzip the file. 
+
+Follow the instructions in the 'Continuous-Control.ipynb' to get started with training!
