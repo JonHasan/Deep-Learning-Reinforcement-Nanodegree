@@ -9,5 +9,7 @@ The task is episodic, in order for the environment to be considered solved, agen
 Once the average reaches .5, the environment will be considered solved. 
 
 
+Feel free to make changes to the hyperparameters and neural network model. Since this is a multi agent problem, instability issues can be a problem. Slight deviations away from optimal hyperparameters can lead to devestating results. Keep this in mind as you progress with the project. 
+
 
 
