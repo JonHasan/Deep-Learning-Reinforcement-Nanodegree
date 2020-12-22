@@ -1,6 +1,6 @@
 # Project 1 Navigation
 
-##Project introduction
+## Project introduction
 
 This project will show how to train an agent to collect yellow bananas while avoiding blue bananas. 
 
